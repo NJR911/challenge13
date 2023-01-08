@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p,
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.card1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.logo{
+    width: 120px;
+}
+
+header div a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+.a1{
+    color: hsl(170, 45%, 43%);
+}
+.a1:hover{
+    color: hsl(170, 57%, 63%);
+}
+
+.Card{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.237);
+    border-radius: 3px;
+    max-width: 450px;
+}
+.avatar{
+    border-radius: 50%;
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+.card2{
+    font-size: .6rem;
+}
+footer div div p a{
+    color: white;
+    text-decoration: none;
+}
+
+.icons{
+    font-size: 23px;
+    word-spacing: 8px;
+}
+.icon{
+    color: white;
+}
+a:hover,
+.icon:hover{
+    color: violet;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
